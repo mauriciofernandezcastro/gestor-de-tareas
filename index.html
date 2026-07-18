@@ -1,1 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>TaskFlow - Gestor de Tareas</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <div class="contenedor">
+        <h1>gestor de tareas</h1>
+        
+        
+        <div id="notificacion" class="oculto"></div>
+
+        
+        <form id="formulario-tarea">
+            <input type="text" id="nueva-tarea" placeholder=“escribe aquí..." required>
+            <button type="submit" id="btn-guardar">guardar tarea</button>
+        </form>
+
+        
+        <div id="contador-caja">
+            <p>tiempo revisión de tareas: <span id="contador">10</span> segundos</p>
+        </div>
+
+        
+        <ul id="lista-tareas"></ul>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
 
